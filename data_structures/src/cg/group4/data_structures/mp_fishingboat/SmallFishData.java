@@ -85,11 +85,14 @@ public class SmallFishData implements Serializable {
      * @return boolean representing whether the destination has been reached.
      */
     public boolean destinationReached() {
-        boolean xCheck = cDestination.getX() <= cPosition.getX() + cFishSizeX
+        boolean xCheck =
+                cDestination.getX() <= cPosition.getX() + cFishSizeX
                 && cDestination.getX() >= cPosition.getX();
 
-        boolean yCheck = cDestination.getY() <= cPosition.getY() + cFishSizeY
+        boolean yCheck =
+                cDestination.getY() <= cPosition.getY() + cFishSizeY
                 && cDestination.getY() >= cPosition.getY();
+
         return xCheck && yCheck;
     }
 

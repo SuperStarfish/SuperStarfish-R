@@ -32,7 +32,7 @@ public class Launcher extends Game implements AssetsLoadingHandler {
     /**
      * Used to clear all preferences and other data to start with a 'clean' game.
      */
-    public static final boolean CLEAR_SETTINGS = false;
+    public static final boolean CLEAR_SETTINGS = true;
     /**
      * Gets the device id as uniquer user ID.
      */

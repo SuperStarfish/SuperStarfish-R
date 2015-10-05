@@ -427,7 +427,7 @@ public class Stroll implements Observer {
 
 
     /**
-     * Generate an event on a certain requirement (e.g. a random r: float < 0.1).
+     * Generate an event on a certain requirement <pre>(e.g. a random r: float < 0.1)</pre>.
      */
     protected void generatePossibleEvent() {
         Random rng = new Random();

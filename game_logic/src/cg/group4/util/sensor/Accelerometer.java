@@ -90,7 +90,7 @@ public class Accelerometer {
      * Returns the input if the absolute input is higher than the noise threshold. 0 Otherwise.
      *
      * @param scalar Accelerometer component
-     * @return Input if scalar > noise threshold. 0 Otherwise.
+     * @return If <pre>scalar > noise threshold</pre> then <pre>input</pre>. Else <pre>0</pre>.
      */
     protected final float filterNoise(final float scalar) {
         float result = 0f;

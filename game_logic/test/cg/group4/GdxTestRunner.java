@@ -20,7 +20,7 @@ import java.util.Map;
  * Without a proper running instance of the LibGDX application a lot of things cannot be tested.
  * The file is slightly modified for our purposes.
  *
- * @author <a href="https://bitbucket.org/TomGrill>TomGrill</a>
+ * @author <a href="https://bitbucket.org/TomGrill">TomGrill</a>
  * @author <a href="http://badlogicgames.com/forum/viewtopic.php?f=17&t=1485">__nocach</a>
  * @see <a href="https://bitbucket.org/TomGrill/libgdx-testing-sample">GdxTestRunner lib</a>
  */

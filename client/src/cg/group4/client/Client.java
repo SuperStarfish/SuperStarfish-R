@@ -377,6 +377,7 @@ public final class Client {
     /**
      * Stores the host ip on the server with a generated code that it will return to let the client connect.
      *
+     * @param port Port on which the server will react.
      * @param responseHandler The task to execute once a reply is received completed.
      */
     public void hostEvent(int port, final ResponseHandler responseHandler) {
@@ -390,6 +391,7 @@ public final class Client {
      *
      * @param useIPv4 boolean whether or not to use IPv4.
      *                +    * @return String representing the IP address.
+     * @return IP address as a String.
      */
     public static String getIPAddress(boolean useIPv4) {
         try {
